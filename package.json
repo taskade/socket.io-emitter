@@ -1,11 +1,11 @@
 {
-  "name": "socket.io-emitter",
-  "version": "3.1.1",
+  "name": "@taskade/socket.io-emitter",
+  "version": "3.1.2",
   "description": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/socketio/socket.io-emitter.git"
+    "url": "git@github.com:taskade/socket.io-emitter.git"
   },
   "files": [
     "index.js"
@@ -26,5 +26,8 @@
     "socket.io": "~2.0.1",
     "socket.io-client": "~2.0.1",
     "socket.io-redis": "^5.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
